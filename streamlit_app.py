@@ -1,5 +1,5 @@
 import numpy as np
-import seaborn as sns
+# import seaborn as sns
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
@@ -26,9 +26,9 @@ df = pd.DataFrame(
 # using the st.write function to write the dataframe to the streamlit app
 st.write("Below is a dataframe:", df, "Above is a dataframe")
 
-# plotting with seaborn
-plt.figure(figsize=(6, 4))
-sns.barplot(x=df["country"], y=df["population"])
-# plt.savefig("ply")
+# # plotting with seaborn
+# plt.figure(figsize=(6, 4))
+# sns.barplot(x=df["country"], y=df["population"])
+# # plt.savefig("ply")
 
-st.pyplot(plt)
+# st.pyplot(plt)
